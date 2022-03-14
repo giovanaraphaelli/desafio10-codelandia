@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fefbfb;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #fefbfb;
+  background-color: #13131f;
+  margin: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.btn {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  background-color: #8257e6;
+  max-width: 80px;
+  max-height: 20px;
+  text-align: center;
+  padding: 7px 10px;
+  border-radius: 3px;
+  transition: 0.3s;
+}
+.btn:hover {
+  background-color: #573d92;
+  cursor: pointer;
+}
+
+.logo {
+  color: #8257e6;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+}
