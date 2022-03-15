@@ -1,0 +1,67 @@
+.animes-introducao {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+}
+
+.capa-anime {
+  background-image: linear-gradient(
+      90deg,
+      #13131f 0.01%,
+      rgba(19, 19, 31, 0) 99.99%
+    ),
+    url(/img/capa-noticia.png);
+  min-height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 30px;
+  position: relative;
+}
+
+.capa-anime h1 {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 55px;
+  padding-bottom: 20px;
+}
+
+.capa-anime p {
+  color: #c4c4c4;
+  width: 40ch;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+}
+.barra-pesquisa {
+  position: relative;
+}
+
+#pesquisa {
+  width: 96%;
+  color: #989898;
+  background-color: #282830;
+  border: none;
+  padding: 15px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+}
+#pesquisa-icon {
+  padding: 10px;
+  right: 15px;
+  top: 5px;
+  position: absolute;
+}
+.cont-principal {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  margin-top: 80px;
+}
