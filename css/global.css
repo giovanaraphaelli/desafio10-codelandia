@@ -33,7 +33,7 @@ body {
   border-radius: 3px;
   transition: 0.3s;
 }
-.btn:hover {
+.btn-hover:hover {
   background-color: #573d92;
   cursor: pointer;
 }

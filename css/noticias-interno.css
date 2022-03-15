@@ -1,4 +1,4 @@
-main {
+.noticias-cont {
   display: grid;
   grid-template-columns: 2fr 1fr;
   gap: 20px;
@@ -75,6 +75,7 @@ aside h1 {
   font-style: normal;
   font-weight: 400;
   padding: 10px 20px;
+  cursor: pointer;
 }
 
 .noticia-imagem p {
