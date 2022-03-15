@@ -57,24 +57,24 @@
   padding-bottom: 20px;
 }
 
-#img-2 {
-  background-image: linear-gradient(
-      360deg,
-      #13131f 0%,
-      rgba(19, 19, 31, 0) 100%
-    ),
-    url(/img/attack-on-titan.png);
-  font-size: 13px;
-  line-height: 20px;
-}
+@media (max-width: 600px) {
+  .introducao {
+    grid-template-columns: 1fr;
+  }
 
-#img-3 {
-  background-image: linear-gradient(
-      360deg,
-      #13131f 0%,
-      rgba(19, 19, 31, 0) 100%
-    ),
-    url(/img/wild-rift.png);
-  font-size: 13px;
-  line-height: 20px;
+  .introducao-imagem {
+    display: none;
+  }
+  .introducao-imagem {
+    min-height: 250px;
+  }
+
+  .introducao-imagem p {
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  .introducao-conteudo p {
+    width: 100%;
+  }
 }

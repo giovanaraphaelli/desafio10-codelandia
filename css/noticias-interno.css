@@ -100,3 +100,24 @@ aside h1 {
   grid-template-columns: 1fr 1fr 1fr;
   gap: 50px;
 }
+
+@media (max-width: 600px) {
+  .noticias-cont {
+    grid-template-columns: 1fr;
+  }
+  .noticias-principal {
+    max-height: max-content;
+    overflow-y: auto;
+  }
+  .recentes-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+  }
+  .noticia-item {
+    grid-template-columns: 1fr;
+  }
+  .noticia-imagem-principal {
+    min-height: 120px;
+  }
+}
