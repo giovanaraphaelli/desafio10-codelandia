@@ -131,7 +131,9 @@ aside h1 {
   .noticia-conteudo {
     padding: 0 20px;
   }
-
+  aside {
+    margin-top: 100px;
+  }
   aside h1 {
     padding-bottom: 15px;
   }
