@@ -33,3 +33,13 @@
   width: 100%;
   display: block;
 }
+
+@media (max-width: 600px) {
+  .container-noticia p {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .container-noticia h2 {
+    font-size: 20px;
+  }
+}

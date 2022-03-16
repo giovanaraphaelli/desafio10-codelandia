@@ -106,6 +106,8 @@ aside h1 {
     grid-template-columns: 1fr;
   }
   .noticias-principal {
+    display: grid;
+    gap: 30px;
     max-height: max-content;
     overflow-y: auto;
   }
@@ -115,9 +117,29 @@ aside h1 {
     gap: 50px;
   }
   .noticia-item {
+    background-color: #71717131;
     grid-template-columns: 1fr;
+    justify-content: center;
+    border-radius: 10px;
   }
   .noticia-imagem-principal {
-    min-height: 120px;
+    min-height: 180px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px 10px 0 0;
+  }
+  .noticia-conteudo {
+    padding: 0 20px;
+  }
+
+  aside h1 {
+    padding-bottom: 15px;
+  }
+
+  .noticia-imagem p {
+    line-height: 15px;
+  }
+  .recentes-container {
+    gap: 20px;
   }
 }
