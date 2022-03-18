@@ -55,10 +55,13 @@
   line-height: 25px;
 }
 #pesquisa-icon {
+  background-color: transparent;
+  border: none;
   padding: 10px;
   right: 20px;
   top: 5px;
   position: absolute;
+  cursor: pointer;
 }
 .cont-principal {
   display: grid;
