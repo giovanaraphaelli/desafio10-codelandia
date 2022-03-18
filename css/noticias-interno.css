@@ -76,6 +76,12 @@ aside h1 {
   font-weight: 400;
   padding: 10px 20px;
   cursor: pointer;
+  transition: all 0.5s;
+}
+
+.noticia-imagem:hover,
+.noticia-imagem:focus {
+  transform: scale(1.025);
 }
 
 .noticia-imagem p {
