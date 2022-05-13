@@ -9,3 +9,8 @@ footer p {
   margin: 10px auto;
   max-width: 50ch;
 }
+@media (max-width: 600px) {
+  footer p {
+    font-size: 14px;
+  }
+}

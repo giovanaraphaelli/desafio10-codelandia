@@ -95,6 +95,7 @@ aside h1 {
   grid-column: 1/-1;
 }
 .recentes h1 {
+  font-size: 24px;
   margin-top: 100px;
   padding-bottom: 10px;
   margin-bottom: 50px;
@@ -111,37 +112,28 @@ aside h1 {
   .noticias-cont {
     grid-template-columns: 1fr;
   }
-  .noticias-principal {
-    display: grid;
-    gap: 30px;
-    max-height: max-content;
-    overflow-y: auto;
-  }
+
   .recentes-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 50px;
   }
-  .noticia-item {
-    background-color: #71717131;
-    grid-template-columns: 1fr;
-    justify-content: center;
-    border-radius: 10px;
+
+  .recentes h1 {
+    font-size: 18px;
   }
-  .noticia-imagem-principal {
-    min-height: 180px;
-    background-size: cover;
-    background-position: center;
-    border-radius: 10px 10px 0 0;
+  .noticia-item {
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
   }
   .noticia-conteudo {
-    padding: 0 20px;
+    padding: 0 5px;
+  }
+  .noticia-conteudo p {
+    display: none;
   }
   aside {
-    margin-top: 100px;
-  }
-  aside h1 {
-    padding-bottom: 15px;
+    display: none;
   }
 
   .noticia-imagem p {
