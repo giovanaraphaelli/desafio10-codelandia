@@ -35,11 +35,15 @@
 }
 
 @media (max-width: 600px) {
-  .container-noticia p {
-    font-size: 18px;
-    line-height: 30px;
+  .container-noticia h1 {
+    font-size: 24px;
   }
   .container-noticia h2 {
     font-size: 20px;
+    line-height: 24px;
+  }
+  .container-noticia p {
+    font-size: 12px;
+    line-height: 20px;
   }
 }

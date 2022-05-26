@@ -71,6 +71,11 @@
 }
 
 @media (max-width: 600px) {
+  element.style {
+  }
+  .capa-anime {
+    justify-content: end;
+  }
   .cont-principal {
     grid-template-columns: 1fr;
   }
