@@ -16,13 +16,13 @@
 .wrapper-nav ul li {
   list-style-type: none;
 }
-.wrapper-nav ul li a {
+.link-header {
   padding: 10px 15px;
   margin-right: 15px;
   color: #c4c4c4;
   position: relative;
 }
-.wrapper-nav ul li a:after {
+.link-header:after {
   content: "";
   display: block;
   height: 2px;
@@ -33,10 +33,10 @@
   position: absolute;
 }
 
-.wrapper-nav ul li a:hover {
+.link-header:hover {
   color: #fefbfb;
 }
-.wrapper-nav ul li a:hover:after {
+.link-header:hover:after {
   width: 100%;
 }
 
@@ -61,7 +61,7 @@
   transition: 0.3s;
 }
 
-.wrapper-nav button:hover {
+.btn-header:hover {
   background-color: #8257e6;
   cursor: pointer;
 }
@@ -77,15 +77,15 @@
     gap: 20px;
     justify-content: center;
   }
-  .wrapper-nav ul li a {
+  .link-header {
     border: none;
     border-radius: 5px;
   }
-  .wrapper-nav ul li a:hover {
+  .link-header:hover {
     color: #fefbfb;
     border: none;
   }
-  .wrapper-nav ul li a:after {
+  .link-header:after {
     display: none;
   }
 }
